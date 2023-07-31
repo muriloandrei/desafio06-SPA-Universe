@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+    
+    --bg-dark: #093f3c;
+    --tt-hover-white: #ffffff;
+    --tt-base-grey: #C4C4CC;
+    --tt-content-grey: #E1E1E6;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;    
+    background-image: url('assets/bg-image.png');
+    background-size: 100% 100vh;
+    background-color: #010C10;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    transition: background-image .5s ease;
+}
+
+.navbar {
+    width: 100%;
+    height: 12.2rem;
+    display: flex;
+    color: var(--tt-base-grey);
+    gap: 3.2rem;
+    align-items: center;
+    padding: 4rem 7.2rem 4rem 7.2rem;
+    margin-left: 10rem;
+}
+
+.navbar .logo {
+    width: 5rem;
+    height: 4.2rem;
+    cursor: pointer;
+    opacity: 0.9;
+    margin-right: 4.3rem;
+}
+
+.navbar .logo:hover {
+    opacity: 1;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 5.3rem;
+}
+
+a {
+    color: var(--tt-base-grey);
+    list-style: none;
+    font-size: 2.1rem;
+    font-weight: 400;
+    cursor: pointer;
+    transition: color .5s ease;
+    align-items: center;
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--tt-hover-white);
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.1rem;
+}
+
+
+
+
+
+
+
